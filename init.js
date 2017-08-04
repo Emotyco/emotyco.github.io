@@ -107,7 +107,7 @@ else {
   document.getElementById("dwnl-btn").innerHTML = "Your system is not supported yet";
 }
 
-if(!jscd.mobile) {
+if(!jscd.mobile || jscd.os == "-") {
   var random = Math.floor((Math.random() * 4) + 1);
 
   if(random == 1) {

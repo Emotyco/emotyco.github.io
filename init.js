@@ -1,20 +1,5 @@
-var random = Math.floor((Math.random() * 4) + 1);
-
-if(random == 2) {
-  document.getElementById("video-cont").children[0].poster = "images/video-8758_medium.jpg"
-  document.getElementById("video-cont").children[0].src = "videos/Cumbia_8758.mp4";
-}
-else if(random == 3) {
-  document.getElementById("video-cont").children[0].poster = "images/video-43_small.jpg"
-  document.getElementById("video-cont").children[0].src = "videos/Fun_Fair_43.mp4";
-}
-else if(random == 4) {
-  document.getElementById("video-cont").children[0].poster = "images/video-4428_small.jpg"
-  document.getElementById("video-cont").children[0].src = "videos/Dance_4428.mp4";
-}
-
 var date = new Date();
-var hour = date.toLocaleTimeString([], {hour: '2-digit'});;
+var hour = date.toLocaleTimeString([], {hour: '2-digit'});
 
 if(hour < 6 || hour > 20) {
   document.getElementsByTagName("body")[0].style.backgroundColor = "#212121";
@@ -120,4 +105,27 @@ else if (jscd.os == "Linux") {
 }
 else {
   document.getElementById("dwnl-btn").innerHTML = "Your system is not supported yet";
+}
+
+var random = Math.floor((Math.random() * 4) + 1);
+
+if(random == 1) {
+  document.getElementById("video-cont").children[0].poster = "images/poster.jpg";
+  if(!jscd.mobile)
+    document.getElementById("video-cont").children[0].src = "videos/Vacation_415.mp4";
+}
+else if(random == 2) {
+  document.getElementById("video-cont").children[0].poster = "images/video-8758_medium.jpg";
+  if(!jscd.mobile)
+    document.getElementById("video-cont").children[0].src = "videos/Cumbia_8758.mp4";
+}
+else if(random == 3) {
+  document.getElementById("video-cont").children[0].poster = "images/video-43_small.jpg";
+  if(!jscd.mobile)
+    document.getElementById("video-cont").children[0].src = "videos/Fun_Fair_43.mp4";
+}
+else if(random == 4) {
+  document.getElementById("video-cont").children[0].poster = "images/video-4428_small.jpg";
+  if(!jscd.mobile)
+    document.getElementById("video-cont").children[0].src = "videos/Dance_4428.mp4";
 }

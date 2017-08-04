@@ -137,6 +137,12 @@ header {
   min-width: 100%;
   min-height: 100%;
   z-index: -1;
+
+  background: url("images/video-4428_small.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .header-text {

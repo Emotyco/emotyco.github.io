@@ -1,20 +1,16 @@
-var random = Math.floor((Math.random() * 5) + 1);
+var random = Math.floor((Math.random() * 4) + 1);
 
 if(random == 2) {
-  document.getElementById("video-cont").children[0].poster = "images/video-5647_small.jpg"
-  document.getElementById("video-cont").children[0].src = "https://pixabay.com/en/videos/download/video-5647_small.mp4";
+  document.getElementById("video-cont").children[0].poster = "images/video-8758_medium.jpg"
+  document.getElementById("video-cont").children[0].src = "videos/Cumbia_8758.mp4";
 }
 else if(random == 3) {
-  document.getElementById("video-cont").children[0].poster = "images/video-8758_small.jpg"
-  document.getElementById("video-cont").children[0].src = "https://pixabay.com/en/videos/download/video-8758_small.mp4";
+  document.getElementById("video-cont").children[0].poster = "images/video-43_small.jpg"
+  document.getElementById("video-cont").children[0].src = "videos/Fun_Fair_43.mp4";
 }
 else if(random == 4) {
-  document.getElementById("video-cont").children[0].poster = "images/video-43_small.jpg"
-  document.getElementById("video-cont").children[0].src = "https://pixabay.com/en/videos/download/video-43_small.mp4";
-}
-else if(random == 5) {
   document.getElementById("video-cont").children[0].poster = "images/video-4428_small.jpg"
-  document.getElementById("video-cont").children[0].src = "https://pixabay.com/en/videos/download/video-4428_small.mp4";
+  document.getElementById("video-cont").children[0].src = "videos/Dance_4428.mp4";
 }
 
 var date = new Date();

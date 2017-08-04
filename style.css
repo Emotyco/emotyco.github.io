@@ -217,7 +217,7 @@ header .header-content .header-content-inner h2 {
   width: -webkit-min-content;
 
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 10px;
   font-weight: bold;
   letter-spacing: 1px;
   border-radius: 30px;
@@ -231,6 +231,12 @@ header .header-content .header-content-inner h2 {
   margin-right: auto;
 
   border: 3px solid
+}
+
+@media (min-width: 576px) {
+  .btn, .btn:focus {
+    font-size: 14px;
+  }
 }
 
 .btn:hover {

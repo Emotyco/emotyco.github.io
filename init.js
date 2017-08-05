@@ -126,3 +126,13 @@ if(!jscd.mobile || jscd.os == "-") {
     document.getElementById("video-cont").children[0].src = "videos/Dance_4428.mp4";
   }
 }
+
+document.querySelector('#toValues').addEventListener('click', function(e) {
+  e.preventDefault();
+  document.querySelector('#values').scrollIntoView({ behavior: 'smooth' });
+});
+
+document.querySelector('#toOpenSource').addEventListener('click', function(e) {
+  e.preventDefault();
+  document.querySelector('#open-source').scrollIntoView({ behavior: 'smooth' });
+});

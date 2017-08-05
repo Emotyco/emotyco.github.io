@@ -7,7 +7,6 @@ if(hour < 6 || hour > 20) {
 
   navChilds[0].children[0].style.color = "white";
   navChilds[1].children[0].style.color = "white";
-  navChilds[2].children[0].style.color = "white";
 
   document.getElementsByTagName("footer")[0].children[0].children[0].children[0].style.color = "white";
   document.getElementById("logo").src = "images/logo-white.png";

@@ -97,7 +97,7 @@ if(hour < 6 || hour > 20) {
 /******************/
 
 if(jscd.os == "Windows") {
-  document.getElementById("dwnl-btn").href = "https://github.com/Emotyco/Emoty-Desktop/releases/download/v0.2/EmotySetup.exe";
+  document.getElementById("dwnl-btn").href = "https://github.com/Emotyco/Emoty-Desktop/releases/download/v0.3/EmotySetup.exe";
 }
 else if (jscd.os == "Linux") {
   document.getElementById("dwnl-btn").href = "https://github.com/Emotyco/Emoty-Desktop/releases/download/v0.2/Emoty-x86_64.AppImage";
